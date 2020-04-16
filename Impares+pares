@@ -1,0 +1,31 @@
+/*
+    Autora: Renata Pereira Martins Gomes
+    Programa:Escreva um aplicativo em C que recebe um número inteiro e mostre os números pares e ímpares, 
+	separados.
+    
+    Data de Criação: 12/04/2020
+    Ult. Atualização: 12/04/2020
+*/
+
+
+#include <stdio.h>
+
+int main()
+{
+        int num,i = 1;
+
+        printf("Digite um numero: ");
+        scanf("%d", &num);
+
+        printf("IMPARES \tPARES\n");
+
+        while(i <= num)
+        {
+            if(i%2 == 1)
+                printf("    %d \t",i); // separei por espaço ao inves de virgula
+            else
+                printf("    \t %d\n", i);
+
+            i++;
+        }
+}
