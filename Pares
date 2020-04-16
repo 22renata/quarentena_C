@@ -1,0 +1,22 @@
+/*
+    Autora: Renata Pereira Martins Gomes
+    Programa:Escreva um programa em C que mostre todos os números pares de 1 até 100.
+    
+    Data de Criação: 12/04/2020
+    Ult. Atualização: 12/04/2020
+*/
+
+
+#include<stdio.h>
+main()
+{
+    int i;
+    for (i=0;i<=100;i++)
+    {
+        if (i%2==0)
+        {
+            printf("Numeros pares entre 0 e 100 ->  %d\n", i);
+        }
+    }
+
+}
